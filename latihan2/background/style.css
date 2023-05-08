@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(0, 0, 0);
+  /* untuk merubah warna background */
+  background-image: url(gambar/bg1.png);
+  /* untuk menjadi gambar sebagai background dengan url relative */
+  background-repeat: no-repeat;
+  /* untuk memotong perulangan dari sumbu x saja atau dari atas kebawah, bagus jika gambar backgroundnya gradient/gradasi */
+  /* kalau repeat y maka dari kiri kekanan atau dari y */
+  /* jika no reapeat maka gambar tidak akan dilakukan perulangan, hanya sekali saja */
+  background-position: top right;
+  /* fitur ini bisa dilakukan jika background no repeat */
+}
+
+h1 {
+  color: white;
+}

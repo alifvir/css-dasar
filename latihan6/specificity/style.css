@@ -1,0 +1,28 @@
+/* p {
+  color: blanchedalmond;
+}
+p {
+  color: rgb(255, 158, 12);
+} */
+
+/* jika terdapat 2 selector yg levelnya sama persis makan yg akan dijalankan aadalah yg terbaru
+    karena diaa akan menimpah yg sebelumnya */
+#p1 {
+  color: rgb(43, 0, 255);
+}
+
+p {
+  color: aqua;
+}
+/*  yang akan dijalankan adalah yg #p1 karena lebih spesifik daripada p */
+
+ul#sarapan li {
+  color: green;
+}
+/* css tolong carikan saya li yg ada didalam ul yg ada id/#sarapan */
+
+ul#sarapan li.favorit {
+  color: red;
+}
+/* css tolong carikan saya li yang punya class favorit yang beradad didalam ul dan mempunyai id sarapan */
+/* jika hanya .favorit maka tidak akan berubah menjadi merah karena kurang spesifik atau kalah dalam beban */

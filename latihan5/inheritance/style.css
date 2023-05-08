@@ -1,0 +1,11 @@
+body {
+  font-family: arial;
+  color: rgb(170, 0, 255);
+}
+/* css tolong carikan saya body dan ubah semua fontnya arial dan colornya ungu */
+
+a {
+  color: inherit;
+}
+/* artinya saya akan mewarisi warna apa saja yg diberikan oleh orang tua saya (body) */
+/* karena jika color bukan inherit, malah diisi ungu maka jika body diganti warna a tidak akan ikut, agar ikut dikasih inherite */
